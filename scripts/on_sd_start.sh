@@ -81,7 +81,7 @@ case "$( python scripts/get_config.py --default=False net listen_to_network )" i
         export ED_BIND_IP=0.0.0.0
         ;;
     "False")
-        export ED_BIND_IP=127.0.0.1
+        export ED_BIND_IP=0.0.0.0
         ;;
 esac
 cd stable-diffusion

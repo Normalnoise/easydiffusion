@@ -12,7 +12,7 @@ models_base_dir = os.path.abspath(os.path.join("..", "models"))
 
 models_to_check = {
     "stable-diffusion": [
-        {"file_name": "sd-v1-4.ckpt", "model_id": "1.4"},
+        {"file_name": "sd-v1-5.ckpt", "model_id": "1.5"},
     ],
     "gfpgan": [
         {"file_name": "GFPGANv1.4.pth", "model_id": "1.4"},
